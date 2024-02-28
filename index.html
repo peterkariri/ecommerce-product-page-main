@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>E-commerce product page</title>
+  <link rel="stylesheet" href="index.css">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="first">
+      <img src="images/icon-menu.svg" alt="menu icon" id="menu">
+      <img src="images/logo.svg" alt="logo sneakers" class="sneakers">
+ 
+    </div>
+    <div class="nav-div" >
+      <nav class="nav" id="nav-1">
+        <button id="close">
+          <img src="images/icon-close.svg" alt="close menu" >
+        </button>
+        <ul>
+          <li><a href="#">Collections</a></li>
+          <li><a href="#">Men</a></li>
+          <li><a href="#">Women</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <img src="images/icon-cart.svg" alt="cart icon" class="cart">
+  </header>
+     <main>
+      
+      
+      <div class="container">
+        <div class="shoe-image">
+          <img src="images/image-product-1.jpg" alt="product one">
+          <div class="img-container">
+          
+            <div class="shoe-child" id="shoe-child">
+              <button id="prev" class="button"> < </button>
+                <img  src="images/image-product-1.jpg" alt="product one">
+            
+              
+                <img  src="images/image-product-2.jpg" alt="product two">
+              
+            
+                <img  src="images/image-product-3.jpg" alt="product three">
+              
+              
+                <img  src="images/image-product-4.jpg" alt="product four">
+                <button id="next" class="button"> > </button>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="content">
+         <h1> Sneaker Company</h1>
+
+         <h2> Fall Limited Edition Sneakers</h2>
+
+         <p>
+          These low-profile sneakers are your perfect casual wear companion. Featuring a 
+          durable rubber outer sole, they’ll withstand everything the weather can offer.
+         </p>
+
+         <span>
+          <h3> $125.00</h3> 
+          <h4>$250.00</h4>
+          <h5>50%</h5>
+         </span>
+
+
+         <div class="adding">
+          <div class="wrapper">
+            <span class="minus" id="minus">-</span>
+            <span class="num" id="num">01</span>
+            <span class="addition" id="plus">+</span>
+ 
+          </div>
+          <button type="submit"><img src="images/icon-cart.svg" alt="cart icon" class="img-cart">Add to cart</button>
+
+         </div>
+         </div>
+        
+      </div>
+    
+     </main>
+
+     <script src="index.js"></script>
+
+</body>
+</html>
