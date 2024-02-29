@@ -7,6 +7,10 @@ menuBtn.addEventListener("click", () => {
   menuBtn.style.display = "none";
   closeBtn.style.display = "block"
 });
+window.addEventListener("scroll", () => {
+  
+})
+ 
 
 closeBtn.addEventListener("click", () => {
   nav.style.display = "none";
