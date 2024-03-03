@@ -82,6 +82,9 @@ header{
     
 
 }
+.slideshow{
+    display: none;
+}
 .img-container{
     display: block;
     margin-top: 10%;
@@ -218,6 +221,9 @@ h4{
 #close{
     display: none;;
 }
+#anchor-1{
+    width: 100%;
+}
 
 .adding button{
     width: 100%;
@@ -247,6 +253,9 @@ h4{
   .button{
     display: block;
   }
+  .slideshow{
+    display: none;
+}
   .button-wrapper{
     width: 100%;
     position: relative;
@@ -291,6 +300,9 @@ h4{
     margin-left: 0px;
     display: none;
     
+   }
+   .slideshow{
+    display: none;
    }
    .shoe-child{
     width: 100%;
@@ -349,6 +361,11 @@ h4{
     border-right:none;
     border-left:none;
 }
+#close{
+    float: right;
+    border: none;
+
+}
    
     
    .adding button{
@@ -358,7 +375,7 @@ h4{
    }
    .nav{
     position: fixed;
-    top:45px;
+    top:0;
     left: 0;
     bottom: 0;
     right: 50%;

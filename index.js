@@ -2,15 +2,22 @@ const nav = document.getElementById("nav-1");
 const menuBtn = document.getElementById("menu");
 const closeBtn = document.getElementById("close");
 
+let thumbnail=document.getElementById("key-one");
+let slideshowbtn=document.getElementById("slideshow")
+
 menuBtn.addEventListener("click", () => {
   nav.style.display = "block";
   menuBtn.style.display = "none";
   closeBtn.style.display = "block"
 });
+
+//window on scroll of the navigation menu  to dissappear3i
 window.addEventListener("scroll", () => {
   
 })
- 
+ slideshowbtn.addEventListener("click", (
+  
+ ) =>{thumbnail.style.display="flex"})
 
 closeBtn.addEventListener("click", () => {
   nav.style.display = "none";
@@ -56,6 +63,7 @@ slideshowImages[0].classList.add('active');
 
 setInterval(changeSlide, 3000); // Change slide every 3 seconds
 //slideshow code 
+//previuos button 
 document.getElementById('prev').addEventListener('click', ()=> {
    currentIndex = parseInt(document.getElementById('shoe-child').style.transform.slice(7, -3), 10);
   currentIndex--;
@@ -64,7 +72,7 @@ document.getElementById('prev').addEventListener('click', ()=> {
   }
   document.getElementById('shoe-child').style.transform = 'translateX(' + (-100 * currentIndex) + '%)';
 });
-
+//next button 
 document.getElementById('next').addEventListener('click', function() {
   var currentIndex = parseInt(document.getElementById('shoe-child').style.transform.slice(7, -3), 10);
   currentIndex++;
